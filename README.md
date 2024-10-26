@@ -2,8 +2,6 @@
 
 Transformando doações de sangue em esperança para quem mais precisa.
 
-Show Image
-Show Image
 📋 Sobre o Projeto
 Doe+Vida é uma plataforma web dedicada a conectar doadores de sangue a pacientes necessitados no Distrito Federal. Nossa missão é tornar o processo de doação de sangue mais acessível, eficiente e transparente, salvando vidas através da generosidade de voluntários.
 ✨ Características Principais
@@ -40,7 +38,6 @@ Atualização de informações em tempo real
 💻 Instalação e Uso
 
 Clone o repositório
-
 bashCopygit clone https://github.com/seu-usuario/doevida.git
 
 Abra o arquivo index.html em seu navegador

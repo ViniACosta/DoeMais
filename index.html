@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doe+Vida</title>
+    <!--================= CSS ================-->
+    <link
+      rel="stylesheet"
+      href="css/styles.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <!--================= REMIXICON ================-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--================= GOOGLE FONTS ================-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--================= SWIPER CDN CSS ================-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!--================= AOS ANIMATE ================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--================= FAVICON ================-->
+    <link
+      rel="icon"
+      href="img/5351268-cancer-care-logo-design-vetor.jpg"
+      style="border-radius: 50%"
+    />
+  </head>
+  <body>
+    <!--================= HEADER ================-->
+    <header data-aos="fade-down" data-aos-duration="1000">
+      <nav class="container">
+        <a href="#" class="logo">
+          <img
+            src="img/5351268-cancer-care-logo-design-vetor.jpg"
+            alt="Doe+Vida"
+          />
+          <span>Doe+Vida</span>
+        </a>
+
+        <ul class="menuList">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#quem-somos">Quem Somos</a></li>
+          <li><a href="#como-doar">Como Doar</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Pesquisar..." />
+          <button id="search-button">
+            <i class="ri-search-line"></i>
+          </button>
+        </div>
+
+        <div class="menu-right">
+          <a href="#" class="menu-btn">
+            <span>Doe Agora</span>
+            <i class="ri-heart-pulse-fill"></i>
+          </a>
+          <div class="menu-icon" id="menu-icon">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--================= CAROUSEL ================-->
+    <div class="modern-carousel">
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div
+            class="carousel-slide"
+            style="background-image: url('img/idosa-feliz.jpg')"
+          >
+            <div class="slide-content">
+              <h2>Doe sangue, doe vida.</h2>
+              <p>Heróis não usam capas, eles doam sangue e salvam vidas!</p>
+              <button class="cta-button">Como Doar</button>
+            </div>
+          </div>
+          <div
+            class="carousel-slide"
+            style="background-image: url('img/paciente-feliz.jpg')"
+          >
+            <div class="slide-content">
+              <h2>Cada gota conta!</h2>
+              <p>
+                Quando você doa sangue, você doa esperança. Ajude pacientes com
+                câncer a continuarem lutando.
+              </p>
+              <button class="cta-button">Veja Mais</button>
+            </div>
+          </div>
+          <div
+            class="carousel-slide"
+            style="background-image: url('img/ajude.jpg')"
+          >
+            <div class="slide-content">
+              <h2>Juntos, salvamos vidas</h2>
+              <p>Sua generosidade pode fazer a diferença. Doe sangue hoje!</p>
+              <button class="cta-button">Agendar Doação</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-button prev" aria-label="Slide anterior">
+          &lt;
+        </button>
+        <button class="carousel-button next" aria-label="Próximo slide">
+          &gt;
+        </button>
+        <div class="carousel-nav">
+          <button
+            class="nav-indicator current"
+            aria-label="Ir para slide 1"
+          ></button>
+          <button class="nav-indicator" aria-label="Ir para slide 2"></button>
+          <button class="nav-indicator" aria-label="Ir para slide 3"></button>
+        </div>
+      </div>
+    </div>
+
+    <!--================= MAIN ================-->
+    <main>
+      <!--================= QUEM SOMOS ================-->
+      <section id="quem-somos" class="quem-somos">
+        <div class="container">
+          <h2 class="section-title">Quem Somos</h2>
+          <div class="quem-somos-content">
+            <div class="quem-somos-text">
+              <p>
+                A Doe+Vida é uma organização dedicada a salvar vidas através da
+                doação de sangue. Nossa missão é conectar doadores a pacientes
+                necessitados, promovendo a conscientização sobre a importância
+                da doação regular de sangue.
+              </p>
+              <p>
+                Fundada em 2024, nossa equipe de profissionais apaixonados
+                trabalha incansavelmente para tornar o processo de doação de
+                sangue mais acessível, seguro e eficiente.
+              </p>
+            </div>
+            <div class="quem-somos-stats">
+              <div class="stat-item">
+                <i class="ri-heart-pulse-fill"></i>
+                <span class="stat-number">50,000+</span>
+                <span class="stat-label">Vidas Salvas</span>
+              </div>
+              <div class="stat-item">
+                <i class="ri-user-heart-fill"></i>
+                <span class="stat-number">10,000+</span>
+                <span class="stat-label">Doadores Ativos</span>
+              </div>
+              <div class="stat-item">
+                <i class="ri-hospital-fill"></i>
+                <span class="stat-number">100+</span>
+                <span class="stat-label">Hospitais Parceiros</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================= COMO DOAR ================-->
+      <section id="como-doar" class="section como-doar">
+        <div class="container">
+          <h2 class="section-title">Como Doar</h2>
+          <div class="como-doar-content">
+            <div class="como-doar-steps">
+              <div class="step">
+                <div class="step-icon">
+                  <i class="ri-calendar-2-line"></i>
+                </div>
+                <div class="step-info">
+                  <h3>Agende sua doação</h3>
+                  <p>
+                    Escolha uma data e horário convenientes para você em um de
+                    nossos centros de doação.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-icon">
+                  <i class="ri-shield-cross-line"></i>
+                </div>
+                <div class="step-info">
+                  <h3>Avaliação de saúde</h3>
+                  <p>
+                    Passe por uma rápida avaliação para garantir que você está
+                    apto a doar sangue com segurança.
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-icon">
+                  <i class="ri-hand-heart-line"></i>
+                </div>
+                <div class="step-info">
+                  <h3>Doe sangue</h3>
+                  <p>
+                    O processo de doação leva apenas cerca de 10-15 minutos.
+                    Relaxe e saiba que você está salvando vidas!
+                  </p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-icon">
+                  <i class="ri-emotion-happy-line"></i>
+                </div>
+                <div class="step-info">
+                  <h3>Recuperação e lanche</h3>
+                  <p>
+                    Após a doação, desfrute de um lanche nutritivo e descanse
+                    por alguns minutos antes de seguir seu dia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="como-doar-cta">
+              <h3>Pronto para fazer a diferença?</h3>
+              <p>
+                Sua doação pode salvar até 4 vidas. Agende sua doação hoje
+                mesmo!
+              </p>
+              <a href="#" class="cta-button">Agendar Doação</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================= ESTOQUE DE SANGUE ================-->
+      <section id="estoque-sangue" class="estoque-sangue">
+        <div class="container">
+          <h2 class="section-title">Estoque de Sangue no DF</h2>
+          <div class="estoque-grid">
+            <div class="tipo-sangue" data-tipo="A+">
+              <h3>A+</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 20%"></div>
+              </div>
+              <p class="porcentagem">20%</p>
+              <p class="status critico">Crítico</p>
+            </div>
+
+            <div class="tipo-sangue" data-tipo="A-">
+              <h3>A-</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 90%"></div>
+              </div>
+              <p class="porcentagem">90%</p>
+              <p class="status estavel">Estável</p>
+            </div>
+
+            <div class="tipo-sangue" data-tipo="B+">
+              <h3>B+</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 80%"></div>
+              </div>
+              <p class="porcentagem">80%</p>
+              <p class="status estavel">Estável</p>
+            </div>
+
+            <div class="tipo-sangue" data-tipo="B-">
+              <h3>B-</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 40%"></div>
+              </div>
+              <p class="porcentagem">40%</p>
+              <p class="status baixo">Baixo</p>
+            </div>
+
+            <div class="tipo-sangue" data-tipo="AB+">
+              <h3>AB+</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 80%"></div>
+              </div>
+              <p class="porcentagem">80%</p>
+              <p class="status estavel">Estável</p>
+            </div>
+
+            <div class="tipo-sangue" data-tipo="AB-">
+              <h3>AB-</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 40%"></div>
+              </div>
+              <p class="porcentagem">40%</p>
+              <p class="status baixo">Baixo</p>
+            </div>
+
+            <div class="tipo-sangue" data-tipo="O+">
+              <h3>O+</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 10%"></div>
+              </div>
+              <p class="porcentagem">10%</p>
+              <p class="status critico">Crítico</p>
+            </div>
+
+            <div class="tipo-sangue" data-tipo="O-">
+              <h3>O-</h3>
+              <div class="bolsa-sangue">
+                <div class="nivel-sangue" style="height: 40%"></div>
+              </div>
+              <p class="porcentagem">40%</p>
+              <p class="status baixo">Baixo</p>
+            </div>
+          </div>
+
+          <div class="estoque-legenda">
+            <div class="legenda-item">
+              <span class="legenda-cor critico"></span>
+              <p>Crítico: 0-20%</p>
+            </div>
+            <div class="legenda-item">
+              <span class="legenda-cor baixo"></span>
+              <p>Baixo: 21-50%</p>
+            </div>
+            <div class="legenda-item">
+              <span class="legenda-cor estavel"></span>
+              <p>Estável: 51-100%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================= ONDE DOAR ================-->
+      <section id="onde-doar" class="onde-doar">
+        <div class="container">
+          <h2 class="section-title">Onde Doar Sangue no DF</h2>
+          <div class="onde-doar-content">
+            <div id="map"></div>
+            <div class="donation-locations">
+              <h3>Locais de Doação</h3>
+              <ul id="location-list"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--================= TIPOS DE SANGUE ================-->
+      <div id="tipos-sangue-container">
+        <span class="title-card"><h1>Tipos de Sangue</h1></span>
+        <div class="card-container">
+          <div class="card">
+            <div class="header">
+              <i class="ri-hand-heart-line"></i>
+              <span class="blood-type">O+</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo O Positivo</p>
+              <p>
+                Doador Universal para fator Rh+<br />
+                Pode receber de: O+ e O-
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">37%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">Rh+</div>
+                  <div class="stat-label">Pode doar para</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="header">
+              <i class="ri-earth-line"></i>
+              <span class="blood-type">O-</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo O Negativo</p>
+              <p>Doador Universal!<br />Pode receber apenas: O-</p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">7.5%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value"><i class="ri-infinity-line"></i></div>
+                  <div class="stat-label">Todos os tipos</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <div class="header">
+              <i class="ri-heart-pulse-line"></i>
+              <span class="blood-type">A+</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo A Positivo</p>
+              <p>
+                Pode doar para: A+ e AB+<br />Pode receber de: A+, A-, O+ e O-
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">34%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">2 Tipos</div>
+                  <div class="stat-label">Pode doar para</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="header">
+              <i class="ri-heart-2-line"></i>
+              <span class="blood-type">A-</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo A Negativo</p>
+              <p>
+                Pode doar para: A+, A-, AB+ e AB-<br />Pode receber de: A- e O-
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">6%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">4 Tipos</div>
+                  <div class="stat-label">Pode doar para</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="header">
+              <i class="ri-service-line"></i>
+              <span class="blood-type">AB+</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo AB Positivo</p>
+              <p>Apenas para: AB+<br />Receptor Universal</p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">4%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">AB+</div>
+                  <div class="stat-label">Pode doar apenas</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="header">
+              <i class="ri-heart-line"></i>
+              <span class="blood-type">AB-</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo AB Negativo</p>
+              <p>
+                Pode doar para: AB+ e AB-<br />Pode receber de: AB-, A-, B- e O-
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">1%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">2 Tipos</div>
+                  <div class="stat-label">Pode doar para</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="header">
+              <i class="ri-user-heart-line"></i>
+              <span class="blood-type">B+</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo B Positivo</p>
+              <p>
+                Pode doar para: B+ e AB+<br />Pode receber de: B+, B-, O+ e O-
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">8%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">2 Tipos</div>
+                  <div class="stat-label">Pode doar para</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="header">
+              <i class="ri-hearts-line"></i>
+              <span class="blood-type">B-</span>
+            </div>
+            <div class="info">
+              <p class="title">Tipo B Negativo</p>
+              <p>
+                Pode doar para: B+, B-, AB+ e AB-<br />Pode receber de: B- e O-
+              </p>
+              <div class="stats">
+                <div class="stat">
+                  <div class="stat-value">3%</div>
+                  <div class="stat-label">População</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-value">4 Tipos</div>
+                  <div class="stat-label">Pode doar para</div>
+                </div>
+              </div>
+            </div>
+            <div class="footer">
+              <p class="tag">Compatibilidade</p>
+              <a
+                href="https://www.prosangue.sp.gov.br/artigos/quem_doa_pra_quem.html"
+                target="_blank"
+                ><button type="button" class="action">Saiba Mais</button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--================= CONTATO ================-->
+    <section id="contato" class="contato">
+      <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contato-content">
+          <div class="contato-info">
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Nosso Endereço</h3>
+              <p>Rua da Tanana, 123 - Taguatinga, Distrito Federal</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-phone"></i>
+              <h3>Telefone</h3>
+              <p>(61) 99999-9999</p>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <h3>E-mail</h3>
+              <p>doemaisvida@gmail.com</p>
+            </div>
+          </div>
+          <div class="contato-form-container">
+            <form class="contato-form">
+              <div class="form-group">
+                <input type="text" id="nome" name="nome" required />
+                <label for="nome">Seu Nome</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" required />
+                <label for="email">Seu E-mail</label>
+              </div>
+              <div class="form-group">
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <label for="mensagem">Sua Mensagem</label>
+              </div>
+              <button type="submit" class="cta-button">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--================= FOOTER ================-->
+    <footer class="footer-final">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img
+            src="img/5351268-cancer-care-logo-design-vetor.jpg"
+            alt="Doe+Vida Logo"
+          />
+          <h3>Doe+Vida</h3>
+        </div>
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#quem-somos">Quem Somos</a></li>
+            <li><a href="#como-doar">Como Doar</a></li>
+            <li><a href="#estoque-sangue">Estoque de Sangue</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contato</h4>
+          <p>
+            <i class="ri-map-pin-line"></i> Rua da Tanana, 123 - Taguatinga, DF
+          </p>
+          <p><i class="ri-phone-line"></i> (61) 99999-9999</p>
+          <p><i class="ri-mail-line"></i> doemaisvida@gmail.com</p>
+        </div>
+        <div class="footer-social">
+          <h4>Siga-nos</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon"
+              ><i class="ri-facebook-circle-fill"></i
+            ></a>
+            <a href="#" class="social-icon"
+              ><i class="ri-instagram-fill"></i
+            ></a>
+            <a href="#" class="social-icon"
+              ><i class="ri-twitter-x-line"></i
+            ></a>
+            <a href="#" class="social-icon"><i class="ri-linkedin-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Doe+Vida. Todos os direitos reservados.</p>
+        <div class="footer-legal">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Uso</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="scroll-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--================= JS ================-->
+    <script src="js/script.js"></script>
+    <script src="map-script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script>
+      AOS.init({
+        offset: 1,
+      });
+    </script>
+  </body>
+</html>
